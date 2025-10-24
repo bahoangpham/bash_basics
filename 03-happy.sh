@@ -19,8 +19,8 @@ fi
 day=$(date +%u)  # +%u gives 1 (Monday) through 7 (Sunday)
 
 if [ "$day" -eq 6 ] || [ "$day" -eq 7 ]; then
-   echo "Today is the weekend! 🎉"
+   echo "Today is the WEEKEND! 🎉"
 else
-   echo "Today is a weekday. Keep going! 💪"
+   echo "Today is a WEEKDAY. Keep going! 💪"
 fi
 
