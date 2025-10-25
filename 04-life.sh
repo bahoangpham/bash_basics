@@ -17,8 +17,8 @@ fi
 
 hour=$(date +%H)
 if [ "$hour" -ge 5 ] && [ "$hour" -lt 12 ]; then
-    echo "It's morning!"
+    echo "It's morning!!!"
 else
-    echo "It's not morning."
+    echo "It's not morning..."
 fi
 
